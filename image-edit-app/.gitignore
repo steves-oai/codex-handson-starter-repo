@@ -1,3 +1,9 @@
+# Environment
+.env
+*.env
+.env.*
+.DS_Store
+
 # Python
 __pycache__/
 *.py[cod]
@@ -15,11 +21,7 @@ frontend/dist/
 frontend/.vite/
 
 # User generated content
-uploads/*
-!uploads/.gitkeep
-videos/*
-!videos/.gitkeep
-
-.env
-.DS_Store
-*.ipynb
+uploaded_image/*
+!uploaded_image/.gitkeep
+edited_image/*
+!edited_image/.gitkeep
